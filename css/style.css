@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Julius+Sans+One&display=swap');
+
+:root {
+  --background-color: #515855;
+  --primary-color: #90af6b;
+  --text-color: #ffffff;
+  --bs-primary: #90af6b;
+}
+
+* body {
+  font-family: 'Julius Sans One', sans-serif;
+  color: var(--text-color);
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.bg-custom-color {
+  background-color: var(--background-color);
+}
+
+.form-control {
+  background-color: #3b3b3c;
+  color: var(--text-color);
+  border: none;
+  text-align: center;
+  width: 320px !important;
+}
+
+.form-control:focus {
+  background-color: #3b3b3c;
+  color: var(--text-color);
+  border: none;
+  box-shadow: none;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #90af6b;
+  --bs-btn-border-color: #90af6b;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #acd37c;
+  --bs-btn-hover-border-color: #acd37c;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #acd37c;
+  --bs-btn-active-border-color: #acd37c;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #90af6b;
+  --bs-btn-disabled-border-color: #90af6b;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #90af6b;
+  --bs-btn-border-color: #90af6b;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #90af6b;
+  --bs-btn-hover-border-color: #90af6b;
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #90af6b;
+  --bs-btn-active-border-color: #90af6b;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #90af6b;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #90af6b;
+  --bs-gradient: none;
+}
